@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Playfair+Display&display=swap');
+body {
+    font-family: 'Heebo', sans-serif;
+    background-image: url(abcd.jpeg);
+}
+.satu {
+    background-color: #eaeaea;
+    max-width: 800px;
+    width: 800px;
+    margin: auto;
+    border: 5px solid black;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight:700;
+}
+.satu ul li {
+    padding: 5px;
+display: inline-block;}
+.dua {
+    text-align: center;
+}
+.dua img {
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    max-height: 350px;
+    height: 200px;
+    border: 3px solid black;
+}
+.dua table {
+    margin: auto;
+}
+.dua ol li{
+    list-style-position: inside;
+}
+:root {
+    --warna:black;
+}
+.dua .enam {
+    border: 3px solid var(--warna);
+}
+.dua .lima {
+    border: 3px solid var(--warna);
+}
+.dua ol li {
+    width: 600px;
+    padding: 5px;
+    border: 3px solid black;
+    margin: auto;
+}
+.dua ul li {
+    background-color: rgb(218, 218, 218);
+    border: 2px solid black ;
+}
+.dua a {
+    text-decoration: none;
+    color: lightslategrey;
+}
